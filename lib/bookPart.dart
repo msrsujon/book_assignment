@@ -2,7 +2,7 @@ class Book {
   String title;
   String author;
   int Publicationyear;
-  int pagesRead=10;
+  int pagesRead=0;
 
 
 
@@ -13,7 +13,7 @@ class Book {
   static int totalBooks = 0;
 
    void read(int pages){
-     pagesRead +=pages;
+     pagesRead =pagesRead +pages;
    }
 
  // ********* method or behavior*********
